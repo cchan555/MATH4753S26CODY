@@ -6,10 +6,11 @@ Authors@R: c(
     person(
       "Cody", "Chan",
       email = "cody.l.chan-1@ou.edu",
-      role = c("aut", "cre")
+      role = c("aut", "cre"),
+      comment = NULL
     )
   )
-Description: The one and only MATH4753 package.
+Description: The one and only MATH4753 package. Functions for our labs.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
