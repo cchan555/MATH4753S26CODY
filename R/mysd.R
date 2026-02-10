@@ -1,12 +1,12 @@
 #' Title
 #'
-#' @param x
+#' @param x A quantitative vector
 #' @param na.rm
 #'
-#' @returns
+#' @returns A quantitative vector with squre
 #' @export
 #'
-#' @examples
+#' @examples \dontrun mysq(1:10)
 mysd <- function(x, na.rm = TRUE) {
     if(na.rm) {
       x<- x[!is.na(x)]
