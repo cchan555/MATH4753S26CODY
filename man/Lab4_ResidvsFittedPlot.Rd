@@ -11,7 +11,7 @@ Lab4_ResidvsFittedPlot(x, y, data)
 
 \item{y}{y Variable}
 
-\item{data}{Linear model temp location}
+\item{data}{Dataset used for plot}
 }
 \value{
 Residual vs Fitted Values Plot
