@@ -2,26 +2,24 @@
 % Please edit documentation in R/Lab3_Plot.R
 \name{Lab3_Plot}
 \alias{Lab3_Plot}
-\title{Creates a plot with blue dots}
+\title{Creates a plot with blue dots with limits}
 \usage{
-Lab3_Plot(xVariable, yVariable, xlabel, ylabal, title, datatype)
+Lab3_Plot(xVariable, yVariable, xlabel, ylabel, title)
 }
 \arguments{
+\item{xVariable}{x-axis variables}
+
+\item{yVariable}{y-axix variables}
+
+\item{xlabel}{x label}
+
+\item{ylabel}{y label}
+
 \item{title}{title of the plot}
-
-\item{x}{x-axis variables}
-
-\item{y}{y-axix variables}
-
-\item{xlab}{x label}
-
-\item{ylab}{y label}
-
-\item{dataType}{dataset being called in}
 }
 \value{
 returns the plot
 }
 \description{
-Creates a plot with blue dots
+Creates a plot with blue dots with limits
 }
