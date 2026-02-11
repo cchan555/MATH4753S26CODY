@@ -9,14 +9,14 @@ mysd(x, na.rm = TRUE)
 \arguments{
 \item{x}{A quantitative vector}
 
-\item{na.rm}{}
+\item{na.rm}{A Value}
 }
 \value{
-A quantitative vector with squre
+A quantitative vector with square
 }
 \description{
 Title
 }
 \examples{
-\dontrun mysq(1:10)
+\dontrun mysd(1:10)
 }

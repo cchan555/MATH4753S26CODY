@@ -7,14 +7,11 @@
 Lab1_QuickPie(value)
 }
 \arguments{
-\item{value}{A numeric vector of values for Pie Chart}
+\item{values}{A numeric vector of values for Pie Chart}
 }
 \value{
 Pie Plot
 }
 \description{
 Create a Pie Plot
-}
-\examples{
-\dontrun {# Pie Chart of Fish SPECIES pie(tabFish)}
 }
