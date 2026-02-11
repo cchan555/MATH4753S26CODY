@@ -2,7 +2,7 @@
 #'
 #' @param y y Variable
 #' @param x x Variable
-#' @param data Linear model temp location
+#' @param data Dataset used for plot
 #'
 #' @returns Residual vs Fitted Values Plot
 #' @export
