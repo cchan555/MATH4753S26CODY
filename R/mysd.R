@@ -6,7 +6,6 @@
 #' @returns A quantitative vector with square
 #' @export
 #'
-#' @examples \dontrun {mysd(1:10)}
 mysd <- function(x, na.rm = TRUE) {
     if(na.rm) {
       x<- x[!is.na(x)]

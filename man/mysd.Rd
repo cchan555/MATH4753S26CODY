@@ -17,6 +17,3 @@ A quantitative vector with square
 \description{
 Title
 }
-\examples{
-\dontrun mysd(1:10)
-}
