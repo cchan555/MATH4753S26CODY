@@ -3,4 +3,5 @@
 export(Lab1_Box)
 export(Lab2_zScore)
 export(Lab3_Plot)
+export(Lab4_ResidvsFittedPlot)
 export(mysd)
