@@ -3,9 +3,9 @@
 #'
 #'@param values Create a vector of values
 #'
-#'@return Boxplot
+#'@return Boxplot of value given with color blue
 #'@export
-Lab1_QuickBox <- function(values){
+Lab1_Box <- function(values){
 
   b <- boxplot(values, col="blue")
 
