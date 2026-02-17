@@ -2,18 +2,21 @@
 % Please edit documentation in R/mysd.R
 \name{mysd}
 \alias{mysd}
-\title{Title}
+\title{Title My Standard Deviation Function}
 \usage{
 mysd(x, na.rm = TRUE)
 }
 \arguments{
 \item{x}{A quantitative vector}
 
-\item{na.rm}{A Value}
+\item{na.rm}{A Logical indicating whether to remove NA value before computation}
 }
 \value{
-A quantitative vector with square
+A quantitative vector with square (SD of the numeric vector)
 }
 \description{
-Title
+Title My Standard Deviation Function
+}
+\examples{
+mysd(c(1, 2, 3, 4, 5))
 }
