@@ -19,7 +19,7 @@ Lab6_myncurve = function(mu, sigma, a){
   polygon(c(-mu, xcurve, a), c(0, ycurve, 0), col="green")
   # Area
   prob= round(pnorm(a, mu, sigma), 4)
-  text(x = a, y = 0.5*dnorm(a, mu, sigma), paste0("Area =", prob))
+  text(x = a, y = 0.5*dnorm(a, mu, sigma), paste0("Area = ", prob))
 
   list(mu = mu, sigma = sigma, a = a)
 
