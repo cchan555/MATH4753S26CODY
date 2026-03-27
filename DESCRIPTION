@@ -20,3 +20,9 @@ BugReports: https://github.com/cchan555/MATH4753S26CODY/issues
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp
