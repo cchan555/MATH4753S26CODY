@@ -1,6 +1,6 @@
 Package: MATH4753S26CODY
 Type: Package
-Title: What the Package Does (Title Case)
+Title: MATH4753 Package
 Version: 0.1.0
 Authors@R: c(
     person(
