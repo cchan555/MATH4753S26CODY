@@ -15,3 +15,7 @@ z-score vector
 \description{
 Find the z-score
 }
+\examples{
+z <- c(1, 2, 3, 4)
+Lab2_zScore(z)
+}

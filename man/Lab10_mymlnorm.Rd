@@ -21,3 +21,6 @@ A list of Matrix coordinates of maximum likelihood and plot
 \description{
 Maximum Likelihood for Normal Distribution of two parameters
 }
+\examples{
+Lab10_mymlnorm(x=c(10,12,13,15,12, 11, 10),mu=seq(10,15,length=1000),sig=seq(0.1,4,length=1000))
+}

@@ -5,14 +5,16 @@
 #' @param a Lower bound of Uniform Distribution
 #' @param b Upper bound of Uniform Distribution
 #'
-#' @returns Output histogram bars with the distribution of samples
+#' @return Output histogram bars with the distribution of samples
 #' @export
-mycltu=function(n,iter,a=0,b=10){
+#' @examples
+#' Lab8_mycltu(n = 10, iter = 1000)
+Lab8_mycltu=function(n,iter,a=0,b=10){
   ## r-random sample from the uniform
   y=runif(n*iter,a,b)
   ## Place these numbers into a matrix
   ## The columns will correspond to the iteration and the rows will equal the sample size n
-  data=matrix(y,nr=n,nc=iter,byrow=TRUE)
+  data=matrix(y,nrow=n,ncol=iter,byrow=TRUE)
   ## apply the function mean to the columns (2) of the matrix
   ## these are placed in a vector w
   w=apply(data,2,mean)

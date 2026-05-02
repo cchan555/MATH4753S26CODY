@@ -19,3 +19,6 @@ returns Discrete and Continuous Plots of the overbooking problem
 \description{
 Overbooking Problem (Number of tickets to sell a flight)
 }
+\examples{
+ntickets(100, 0.05, 0.9)
+}

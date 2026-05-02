@@ -6,7 +6,8 @@
 #'
 #' @returns Returns density plot with area colored in
 #' @export
-
+#' @examples
+#' Lab6_myncurve(mu = 0, sigma = 1, a = 1)
 Lab6_myncurve = function(mu, sigma, a){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
 

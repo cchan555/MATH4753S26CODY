@@ -7,6 +7,8 @@
 #'
 #' @returns A list of Matrix coordinates of maximum likelihood and plot
 #' @export
+#' @examples
+#' Lab10_mymlnorm(x=c(10,12,13,15,12, 11, 10),mu=seq(10,15,length=1000),sig=seq(0.1,4,length=1000))
 Lab10_mymlnorm=function(x,mu,sig,...){  #x sample vector
   nmu=length(mu) # number of values in mu
   nsig=length(sig)

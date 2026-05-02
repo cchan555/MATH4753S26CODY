@@ -19,3 +19,6 @@ A decimal number of a probability
 \description{
 Negative Binomial Distribution
 }
+\examples{
+Lab5_mynbin(y = 5, r = 3, p = 0.5)
+}

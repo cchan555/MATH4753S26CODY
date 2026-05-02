@@ -19,3 +19,6 @@ Residual vs Fitted Values Plot
 \description{
 Plot Residual vs Fitted Value
 }
+\examples{
+Lab4_ResidvsFittedPlot(mtcars$wt, mtcars$mpg, mtcars)
+}

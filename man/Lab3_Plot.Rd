@@ -23,3 +23,8 @@ returns the plot
 \description{
 Creates a plot with blue dots with limits
 }
+\examples{
+x <- 1:10
+y <- x^2
+Lab3_Plot(x, y, "X", "Y", "Quadratic Plot")
+}

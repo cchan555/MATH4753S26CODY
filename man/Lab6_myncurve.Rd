@@ -19,3 +19,6 @@ Returns density plot with area colored in
 \description{
 Creates density plot using dnorm when given mean and standard deviation
 }
+\examples{
+Lab6_myncurve(mu = 0, sigma = 1, a = 1)
+}

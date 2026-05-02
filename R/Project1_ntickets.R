@@ -6,6 +6,8 @@
 #'
 #' @returns returns Discrete and Continuous Plots of the overbooking problem
 #' @export
+#' @examples
+#' ntickets(100, 0.05, 0.9)
 ntickets <- function(N, gamma, p) {
   ticket_range = seq(N, floor(N + N/10), by = 1)
 

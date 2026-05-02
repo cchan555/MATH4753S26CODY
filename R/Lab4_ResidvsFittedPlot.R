@@ -6,10 +6,12 @@
 #'
 #' @returns Residual vs Fitted Values Plot
 #' @export
+#' @examples
+#' Lab4_ResidvsFittedPlot(mtcars$wt, mtcars$mpg, mtcars)
 Lab4_ResidvsFittedPlot <- function(x, y, data) {
 
   # Create linear model
-  data <- with(data, lm(x~y))
+  data <- with(data, lm(y~x))
 
   residual <- residuals(data)
   fitted <- fitted(data)
